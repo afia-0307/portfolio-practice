@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
+    margin: 0px;
     font-family: open sans;
 }
 .nav-title{
@@ -89,6 +90,7 @@
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right, top left;
+    height: 830px;
 }
 .banner-description{
     width: 590px;
@@ -102,6 +104,7 @@
 .details{
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 .lebel{
     font-size: 20px;
